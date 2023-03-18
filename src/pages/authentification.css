@@ -1,0 +1,96 @@
+
+
+
+.formein{
+    padding-top: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-right: 900px;
+    margin-left: 600px;
+    width: 550px;
+    height: 700px;
+    margin-top: 50px;
+    padding-left: 70px;
+    background-color: bisque;
+    box-shadow: 25px 10px 10px 10px rgb(233, 220, 208);
+ }
+ .font-link {
+    font-family: 'Hanalei Fill', cursive;
+  }
+ .h11{
+    margin-left: 800px;
+    margin-top: 15px;
+    font-family: 'Square Peg', cursive;
+  
+ }
+ .infosUser{
+    width: 300px;
+   height: 50px;
+   border-radius: 39px;
+   padding-left: 50px;
+   padding-top: 6px;
+ }
+ .button1{
+    margin-top: 32px;
+    margin-left: 160px;
+    width: 129px;
+    height: 40px;
+    background-color: rgb(210, 159, 103);
+    border-radius: 30px;
+    
+    font-family: 'Square Peg', cursive;
+  
+ }
+ .button1:hover{
+    width: 133px;
+ }
+ 
+ .radio{
+    width: 70px;
+    height: 20px;
+    font-family: 'Square Peg', cursive;
+ }
+ .br{
+   display: none;
+ }
+ @media only screen and (max-width: 1024px) {
+   .h11{
+      margin: auto;
+      margin-top: 15px;
+      margin-left: 150px;
+      margin-bottom: 15px;
+      font-family: 'Square Peg', cursive;
+    
+   }
+   .br{
+      display: block;
+    }
+   .formein{
+        width: 350px;
+        margin: auto;
+        height: 800px;
+    }
+  .infosUser{
+   width: 200px;
+   height: 50px;
+   border-radius: 39px;
+   padding-left: 50px;
+   padding-top: 2px;
+
+    }
+    .button1{
+      /* margin-top: 32px; */
+      margin-left: 40px;
+      /* margin: auto; */
+      width: 129px;
+      height: 40px;
+      background-color: rgb(210, 159, 103);
+      border-radius: 30px;
+      
+      font-family: 'Square Peg', cursive;
+    
+   }
+   .button1:hover{
+      width: 133px;
+   }
+ }

@@ -1,0 +1,39 @@
+.abouth1{
+   
+    color: #e6a728;
+}
+.imageabout{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #ad9321;
+}
+.articl p{
+    width: 450px;
+
+}
+.articl{
+    margin-top: 40px;
+    border: #e6a728 1px solid;
+    margin-right: 1200px;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.articl2{
+    border: #e6a728 1px solid;
+    margin-right: 1200px;
+    border-radius: 10px;   
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.suite{
+    display: none;
+}
+.articl p:hover + .suite{
+    display: block;
+    height: 1000px;
+ 
+}
